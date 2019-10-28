@@ -10,6 +10,6 @@ for (int i=1;i<argc;i++){
 suma=suma+lista[i];
 }
 promedio=(float)suma/(argc-1);
-printf("%f\n",promedio);
+printf("%.2f\n",promedio);
 return 0;
 }
